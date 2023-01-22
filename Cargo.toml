@@ -1,0 +1,2 @@
+[workspace]
+members = ["aya-uretprobe-test", "aya-uretprobe-test-common", "targettest", "xtask"]

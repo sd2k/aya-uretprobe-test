@@ -1,0 +1,13 @@
+[package]
+name = "targettest"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "targettest"
+path = "src/main.rs"
+
+[dependencies]
+aya-uretprobe-test-common = { path = "../aya-uretprobe-test-common" }
+http = "0.2.8"
